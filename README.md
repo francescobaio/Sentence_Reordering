@@ -5,16 +5,16 @@
 This repository implements a **sentence reordering model** using the Transformer architecture, inspired by the "Attention Is All You Need" paper. The project involves developing, training, and evaluating the model on text data to achieve coherent sentence ordering for tasks like summarization and generation.sec
 
 ## 📋 Table of Contents
-- [🔍 Introduction](#introduction)
-- [📦 Requirements](#requirements)
-- [📂 Dataset](#dataset)
-- [🔧 Notebook Structure](#notebook-structure)
-- [⚙️ Custom Callback](#custom-callback)
-- [📉 Cosine Decay Restart](#cosine-decay-restart)
-- [🚀 Usage](#usage)
-- [📊 Results](#results)
-- [📝 Conclusion](#conclusion)
-- [📚 References](#references)
+- [Introduction](#introduction)
+- [Requirements](#requirements)
+- [Dataset](#dataset)
+- [Notebook Structure](#notebook-structure)
+- [Custom Callback](#custom-callback)
+- [Cosine Decay Restart](#cosine-decay-restart)
+- [Usage](#usage)
+- [Results](#results)
+- [Conclusion](#conclusion)
+- [References](#references)
 
 ## 🔍 Introduction
 The objective of this project is to reorder shuffled sentences into coherent paragraphs using the **Transformer model**, which has shown great effectiveness in NLP tasks. This approach is crucial for applications such as text summarization, machine translation, and story generation.
